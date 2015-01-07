@@ -14,7 +14,7 @@ if( 'xkcd' %in% fonts()) {
     p <- ggplot() + geom_point(aes(x=mpg, y=wt), data=mtcars) +
         theme(text = element_text(size = 16, family = "xkcd"))
     } else {
-        warning("Not xkcd fonts installed!")
+        warning("xkcd fonts not installed!")
         p <- ggplot() + geom_point(aes(x=mpg, y=wt), data=mtcars)
     }
 p
