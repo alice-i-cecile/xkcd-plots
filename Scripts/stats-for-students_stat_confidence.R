@@ -2,7 +2,6 @@
 library(ggplot2)
 library(extrafont)
 library(xkcd)
-library(mgcv)
 
 # Set seed to ensure reproducible results
 set.seed(1)
